@@ -1,8 +1,8 @@
-import tensorflow.keras as keras
+import keras
 import numpy as np
-import tensorflow.keras.backend as K
+import keras.backend as K
 from typing import List, Generator
-from tensorflow.keras.layers import Dropout, Input, Lambda, TimeDistributed, Dense
+from keras.layers import Dropout, Input, Lambda, TimeDistributed, Dense
 from data.dataset import TaskMetadata, SentenceBatch, create_attention_mask, generate_pos_ids
 
 
